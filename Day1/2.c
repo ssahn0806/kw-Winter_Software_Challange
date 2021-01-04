@@ -7,7 +7,7 @@ int main()
 	float c = 10.5f;
 	double d = 10.7;
 
-	printf("\t### º¯°æ Àü ###\n");
+	printf("\t### ë³€ê²½ ì „ ###\n");
 	printf("a : %c, b : %d, c : %.2f, d : %.2lf\n", a, b, c, d);
 
 	void* p = &a;
@@ -19,7 +19,7 @@ int main()
 	p = &d;
 	(*(double*)p)++;
 
-	printf("\n\t### º¯°æ ÈÄ ###\n");
+	printf("\n\t### ë³€ê²½ í›„ ###\n");
 	printf("a : %c, b : %d, c : %.2f, d : %.2lf\n", a, b, c, d);
 
 	return 0;
