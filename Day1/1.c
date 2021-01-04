@@ -12,12 +12,12 @@ int main()
 	float* pc = &c;
 	double* pd = &d;
 
-	printf("\t### º¯°æ Àü ###\n");
+	printf("\t### ë³€ê²½ ì „ ###\n");
 	printf("a : %c, b : %d, c : %.2f, d : %.2lf\n", a, b, c, d);
 	*pa += 1;
 	(*pb)++;
 	*pc = *pc + 1;
 	(*pd)++;
-	printf("\n\t### º¯°æ ÈÄ ###\n");
+	printf("\n\t### ë³€ê²½ í›„ ###\n");
 	printf("a : %c, b : %d, c : %.2f, d : %.2lf\n", a, b, c, d);
 }
