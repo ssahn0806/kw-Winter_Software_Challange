@@ -3,7 +3,7 @@
 void revPrint(void);
 int main()
 {
-	printf("¹®ÀÚ¿­ ÀÔ·Â : ");
+	printf("ë¬¸ìì—´ ì…ë ¥ : ");
 	revPrint();
 	return 0;
 }
