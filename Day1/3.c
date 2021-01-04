@@ -6,7 +6,7 @@ int main()
 {
 	int num;
 
-	printf("¿øÇÏ´Â ±¸±¸´Ü(1~9) :");
+	printf("ì›í•˜ëŠ” êµ¬êµ¬ë‹¨(1~9) :");
 	scanf_s("%d", &num);
 	PRINT(num);
 	return 0;
