@@ -16,7 +16,7 @@ int main()
 		num[i] = rand()%100 + 1;
 	} 
 
-	printf("Á¤·Ä Àü:   ");
+	printf("ì •ë ¬ ì „:   ");
 	for (int i = 0; i < SIZE; i++)
 	{
 		printf("%d ", num[i]);
@@ -24,7 +24,7 @@ int main()
 
 	selectionSort(num, sizeof(num) / sizeof(*num));
 
-	printf("\nÁ¤·Ä ÈÄ:   ");
+	printf("\nì •ë ¬ í›„:   ");
 	for (int i = 0; i < SIZE; i++)
 	{
 		printf("%d ", num[i]);
@@ -50,7 +50,7 @@ void selectionSort(int* pArr, int num)
 		temp = *(pArr + smallest);
 		*(pArr + smallest) = *(pArr + i);
 		*(pArr + i) = temp;
-		printf("\n[%d´Ü°è]: ", i + 1);
+		printf("\n[%dë‹¨ê³„]: ", i + 1);
 		for (int k = 0; k < num; k++)
 		{
 			printf("%d ", *(pArr + k));
