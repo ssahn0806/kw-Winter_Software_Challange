@@ -16,7 +16,7 @@ int main()
 		num[i] = rand() % 100 + 1;
 	}
 
-	printf("Á¤·Ä Àü:   ");
+	printf("ì •ë ¬ ì „:   ");
 	for (int i = 0; i < SIZE; i++)
 	{
 		printf("%d ", num[i]);
@@ -24,7 +24,7 @@ int main()
 
 	bubbleSort(num, sizeof(num) / sizeof(*num));
 
-	printf("\nÁ¤·Ä ÈÄ:   ");
+	printf("\nì •ë ¬ í›„:   ");
 	for (int i = 0; i < SIZE; i++)
 	{
 		printf("%d ", num[i]);
@@ -48,7 +48,7 @@ void bubbleSort(int* pArr, int num)
 				*(pArr + j - 1) = temp;
 			}
 		}
-		printf("\n[%d´Ü°è]: ", i + 1);
+		printf("\n[%dë‹¨ê³„]: ", i + 1);
 		for (int k = 0; k < num; k++)
 		{
 			printf("%d ", *(pArr + k));
