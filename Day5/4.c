@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		printf("ÇÁ·Î±×·¥ »ç¿ë¹ı : my_view ÆÄÀÏ¸í\n");
+		printf("í”„ë¡œê·¸ë¨ ì‚¬ìš©ë²• : my_view íŒŒì¼ëª…\n");
 		return 1;
 	}
 	return 0;

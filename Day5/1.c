@@ -12,8 +12,8 @@ int main(void)
 {
 	int num1, num2;
 
-	printf("\t### ¸ÅÅ©·Î ÇÔ¼ö ###\n");
-	printf("\nµÎ Á¤¼ö ÀÔ·Â : ");
+	printf("\t### ë§¤í¬ë¡œ í•¨ìˆ˜ ###\n");
+	printf("\në‘ ì •ìˆ˜ ì…ë ¥ : ");
 	scanf_s("%d %d", &num1, &num2);
 
 	printf("\nADD(a,b) = %d\n",ADD(num1,num2));
