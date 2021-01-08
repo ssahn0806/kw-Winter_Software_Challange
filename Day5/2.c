@@ -14,13 +14,13 @@ int main(void)
 		return 1;
 	}
 
-	printf("ÆÄÀÏ º¹»çÁß...\n");
+	printf("íŒŒì¼ ë³µì‚¬ì¤‘...\n");
 	while ((ch = fgetc(fp1)) != EOF)
 	{
 		fputc(ch, fp2);
 	}
 	
-	printf("\nº¹»ç ¿Ï·á!!!\n");
+	printf("\në³µì‚¬ ì™„ë£Œ!!!\n");
 	fclose(fp1);
 	fclose(fp2);
 	return 0;
